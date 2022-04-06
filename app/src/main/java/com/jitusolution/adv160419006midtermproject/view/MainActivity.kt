@@ -1,8 +1,8 @@
-package com.jitusolution.adv160419006midtermproject
+package com.jitusolution.adv160419006midtermproject.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_main.*
+import com.jitusolution.adv160419006midtermproject.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

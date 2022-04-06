@@ -22,22 +22,22 @@
         tools:layout="@layout/fragment_about" />
     <fragment
         android:id="@+id/foodDetailFragment"
-        android:name="com.jitusolution.adv160419006midtermproject.FoodDetailFragment"
+        android:name="com.jitusolution.adv160419006midtermproject.view.FoodDetailFragment"
         android:label="fragment_food_detail"
         tools:layout="@layout/fragment_food_detail" />
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.jitusolution.adv160419006midtermproject.LoginFragment"
+        android:name="com.jitusolution.adv160419006midtermproject.view.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" />
     <fragment
         android:id="@+id/optionsFragment"
-        android:name="com.jitusolution.adv160419006midtermproject.OptionsFragment"
+        android:name="com.jitusolution.adv160419006midtermproject.view.OptionsFragment"
         android:label="fragment_options"
         tools:layout="@layout/fragment_options" />
     <fragment
         android:id="@+id/foodListFragment"
-        android:name="com.jitusolution.adv160419006midtermproject.FoodListFragment"
+        android:name="com.jitusolution.adv160419006midtermproject.view.FoodListFragment"
         android:label="fragment_food_list"
         tools:layout="@layout/fragment_food_list" />
 </navigation>

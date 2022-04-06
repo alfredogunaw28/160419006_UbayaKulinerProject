@@ -1,12 +1,13 @@
-package com.jitusolution.adv160419006midtermproject
+package com.jitusolution.adv160419006midtermproject.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.jitusolution.adv160419006midtermproject.R
 
-class MenuDetailFragment : Fragment() {
+class MenuFoodListFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,3 +21,4 @@ class MenuDetailFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_about, container, false)
     }
 }
+
