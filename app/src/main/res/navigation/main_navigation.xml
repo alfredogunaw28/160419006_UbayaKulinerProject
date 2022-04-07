@@ -9,12 +9,32 @@
         android:id="@+id/itemHome"
         android:name="dk.ubaya.adv160819001midtermproject.view.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_itemHome_to_itemProfile"
+            app:destination="@id/itemProfile" />
+        <action
+            android:id="@+id/action_itemHome_to_optionsFragment"
+            app:destination="@id/optionsFragment" />
+        <action
+            android:id="@+id/action_itemHome_to_itemAbout"
+            app:destination="@id/itemAbout" />
+        <action
+            android:id="@+id/action_itemHome_to_foodListFragment"
+            app:destination="@id/foodListFragment" />
+    </fragment>
     <fragment
         android:id="@+id/itemProfile"
         android:name="dk.ubaya.adv160819001midtermproject.view.ProfileFragment"
         android:label="fragment_profile"
-        tools:layout="@layout/fragment_profile" />
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_itemProfile_to_foodDetailFragment"
+            app:destination="@id/foodDetailFragment" />
+        <action
+            android:id="@+id/action_itemProfile_to_foodListFragment"
+            app:destination="@id/foodListFragment" />
+    </fragment>
     <fragment
         android:id="@+id/itemAbout"
         android:name="dk.ubaya.adv160819001midtermproject.view.AboutFragment"
@@ -29,7 +49,11 @@
         android:id="@+id/loginFragment"
         android:name="com.jitusolution.adv160419006midtermproject.view.LoginFragment"
         android:label="fragment_login"
-        tools:layout="@layout/fragment_login" />
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_itemHome"
+            app:destination="@id/itemHome" />
+    </fragment>
     <fragment
         android:id="@+id/optionsFragment"
         android:name="com.jitusolution.adv160419006midtermproject.view.OptionsFragment"
