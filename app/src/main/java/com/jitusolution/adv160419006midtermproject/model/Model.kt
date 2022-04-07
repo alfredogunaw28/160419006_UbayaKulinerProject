@@ -8,5 +8,6 @@ data class Kuliner(
     val name:String?,
     @SerializedName("number_of_order")
     val numberorder:String?,
+    val address:String?,
     val phone:String?
 )
