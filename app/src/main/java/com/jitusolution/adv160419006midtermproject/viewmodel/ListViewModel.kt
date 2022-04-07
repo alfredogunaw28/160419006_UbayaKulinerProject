@@ -25,7 +25,7 @@ class ListViewModel(application: Application): AndroidViewModel(application)  {
         KulinerLoadErrorLD.value = false
 
         queue = Volley.newRequestQueue(getApplication())
-        val url = "http://adv.jitusolution.com/student.phpid=[student id]"
+        val url = "http://adv.jitusolution.com/student.phpid=[Kuliner id]"
 
         val stringRequest = StringRequest(
             Request.Method.GET, url,
