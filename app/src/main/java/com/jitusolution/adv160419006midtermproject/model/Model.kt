@@ -4,10 +4,10 @@ import com.google.gson.annotations.SerializedName
 
 data class Kuliner(
     val id:String?,
-    @SerializedName("order_name")
+    @SerializedName("resto_name")
     val name:String?,
-    @SerializedName("number_of_order")
-    val numberorder:String?,
     val address:String?,
+    @SerializedName("favorit_food")
+    val favorit:String?,
     val phone:String?
 )
