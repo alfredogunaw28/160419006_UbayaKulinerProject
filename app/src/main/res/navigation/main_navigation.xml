@@ -34,6 +34,9 @@
         <action
             android:id="@+id/action_itemProfile_to_foodListFragment"
             app:destination="@id/foodListFragment" />
+        <action
+            android:id="@+id/action_itemProfile_to_itemHome"
+            app:destination="@id/itemHome" />
     </fragment>
     <fragment
         android:id="@+id/itemAbout"
@@ -44,7 +47,11 @@
         android:id="@+id/foodDetailFragment"
         android:name="com.jitusolution.adv160419006midtermproject.view.FoodDetailFragment"
         android:label="fragment_food_detail"
-        tools:layout="@layout/fragment_food_detail" />
+        tools:layout="@layout/fragment_food_detail" >
+        <action
+            android:id="@+id/action_foodDetailFragment_to_itemAbout"
+            app:destination="@id/itemAbout" />
+    </fragment>
     <fragment
         android:id="@+id/loginFragment"
         android:name="com.jitusolution.adv160419006midtermproject.view.LoginFragment"
